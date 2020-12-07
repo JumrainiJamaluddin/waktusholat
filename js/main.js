@@ -34,7 +34,8 @@ function playerTimes(latitude, longitude){
 
  //eror
 function eror(position){
-    alert('posisi tidak dapat di akses');
+    //defaulut longtitude dan longtitude
+    playerTimes('-6.200000', '106.816666');
 }
 
  //akses geolocation di function
