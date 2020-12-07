@@ -3,7 +3,10 @@ function playerTimes(latitude, longitude){
     ////fungsi .then (mengembalikan Promise dan menggunakan dua argumen: fungsi callback untuk kasus sukses dan gagal pada Promise) response di jadikan data json
     .then(response => response.json())
     .then(function(response) {
-        console.log(response.data[0])
+        let data    = new Date();
+        let today   = data.getDate() - 1;
+    
+      //  console.log(response.data);
     });
 }
  //nama function callback
