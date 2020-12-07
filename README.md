@@ -1,2 +1,2 @@
 # waktusholat
-me,buat jadwal waktu sholat dengan API di Aladhan.com
+membuat jadwal waktu sholat dengan API di Aladhan.com
